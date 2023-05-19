@@ -7,7 +7,6 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
     },
     extend: {},
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
-
