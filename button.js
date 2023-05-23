@@ -2,7 +2,7 @@
 
 window.addEventListener('scroll', function () {
   var scroll = document.getElementById('buyBtn');
-  var scrollThreshold = 550;
+  var scrollThreshold = 900;
 
   if (scroll && window.scrollY > scrollThreshold) {
     scroll.classList.remove("hidden");
