@@ -9,6 +9,9 @@
   <meta name="description"
     content="Você nunca mais vai precisa de outra planilha para controlar a gestão financeira dos seus atendimentos depois que conhecer essa planilha!">
 
+  <!-- Animate CSS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- CDN TAILWINDCSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -157,7 +160,8 @@
       <section class="flex flex-col justify-center items-center mx-7">
         <section class="flex flex-col justify-center items-center gap-y-6 text-center">
           <a class="flex items-center xl:mb-2">
-            <img src="./assets/Logo-psicare-pb.svg" class="h-10 mt-3 xl:h-14" alt="">
+            <section class="flex flex-col justify-center items-center gap-y-6 text-center">
+              <img src="./assets/Logo-psicare-pb.svg" class="h-10 mt-3 xl:h-14" alt="">
           </a>
           <p class="text-slate-500 font-medium sm:mx-48 xl:mx-80 xl:mt-6 xl:text-lg xl:max-w-[600px]">
             Ao comprar a planilha Psi.Care você ganha de bônus acesso à versão online feito no Google Planilhas para
@@ -200,21 +204,6 @@
           </h1>
         </section>
         <section class="mt-7 lg:grid lg:grid-cols-3 lg:grid-flow-rol lg:gap-4 xl:mt-16">
-          <a class="">
-            <img src="./assets/feedbacks/depoimento1.jpg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
-          </a>
-          <a class="">
-            <img src="./assets/feedbacks/depoimento3.jpg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
-          </a>
-          <a class="">
-            <img src="./assets/feedbacks/depoimento3.1.jpg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
-          </a>
-          <a class="">
-            <img src="./assets/feedbacks/depoimento2.jpg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
-          </a>
-          <a class="">
-            <img src="./assets/feedbacks/depoimento4.jpg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
-          </a>
           <a class="">
             <img src="./assets/feedbacks/1.svg" class="rounded-lg h-auto mb-3 sm:w-80" alt="">
           </a>
@@ -681,6 +670,11 @@
 
   <!-- CHASING "buyBtn" JS -->
   <script src="./button.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
